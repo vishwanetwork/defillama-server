@@ -18619,7 +18619,7 @@ const data4: Protocol[] = [
     twitter: "crovegasfun",
     listedAt: 1751045489,
   },
-  {  
+  {
     id: "6364",
     name: "Mineral Vault",
     address: null,
@@ -27450,9 +27450,13 @@ const data4: Protocol[] = [
     name: "Vishwa",
     address: null,
     symbol: "-",
-    url: "https://vishwanetwork.xyz/",
+    url: "https://www.vishwalab.com/",
     description:
-      "Vishwa is the verification layer for autonomous capital. As financial execution becomes agent-driven, capital must prove solvency, authorization, and policy compliance before transactions occur. Vishwa uses zero-knowledge proofs to enforce these constraints before execution — agents must cryptographically prove they are authorized and solvent before funds move. This allows institutions to deploy capital programmatically across execution venues while maintaining enforceable constraints. No proof, no execution.",
+      "Vishwa is building agent-native banking infrastructure, beginning with the control layer before capital movement." +
+      "As financial workflows become increasingly agent-driven across payments, treasury, FX, remittance, and on-chain execution, approval alone is no longer enough — execution can drift after authorization." +
+      "Through Veta, its execution control layer, Vishwa enforces programmable constraints before capital moves, including authorization, solvency, policy, routing, and execution integrity." +
+      "This allows institutions, protocols, and agent systems to coordinate autonomous capital across venues while maintaining enforceable pre-execution control." +
+      "No constraints satisfied. No execution.",
     chain: "Bitcoin",
     logo: `${baseIconsUrl}/vishwa.jpg`,
     audits: "2",
@@ -27461,7 +27465,7 @@ const data4: Protocol[] = [
     category: "Anchor BTC",
     chains: ["Bitcoin"],
     module: "vishwa/index.js",
-    twitter: "Vishwa_xyz",
+    twitter: "Vishwa_lab",
     audit_links: ["https://docs.vishwanetwork.xyz/security/audits-and-compliance"],
     listedAt: 1758557154
   },
