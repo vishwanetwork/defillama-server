@@ -27452,11 +27452,7 @@ const data4: Protocol[] = [
     symbol: "-",
     url: "https://www.vishwalab.com/",
     description:
-      "Vishwa is building agent-native banking infrastructure, beginning with the control layer before capital movement." +
-      "As financial workflows become increasingly agent-driven across payments, treasury, FX, remittance, and on-chain execution, approval alone is no longer enough — execution can drift after authorization." +
-      "Through Veta, its execution control layer, Vishwa enforces programmable constraints before capital moves, including authorization, solvency, policy, routing, and execution integrity." +
-      "This allows institutions, protocols, and agent systems to coordinate autonomous capital across venues while maintaining enforceable pre-execution control." +
-      "No constraints satisfied. No execution.",
+      "Vishwa is agent-native banking infrastructure for autonomous capital, built around a pre-execution control layer that verifies and enforces solvency, authorization, policy, and execution constraints before capital moves across chains and execution venues.",
     chain: "Bitcoin",
     logo: `${baseIconsUrl}/vishwa.jpg`,
     audits: "2",
